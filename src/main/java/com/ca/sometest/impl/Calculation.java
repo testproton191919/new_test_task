@@ -8,7 +8,7 @@ public class Calculation implements SummarizeNumbers {
     @Override
     public Integer sum(Integer a, Integer b) throws FailException {
 
-        if (a == null & b == null) {
+        if (a == null && b == null) {
             throw new FailException("Null was found for both values");
         } else if ( a == null ) {
             throw new FailException("Null was found for value a");
